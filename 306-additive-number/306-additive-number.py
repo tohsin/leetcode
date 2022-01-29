@@ -3,7 +3,7 @@ class Solution:
         if len(num)<3:
             return False
         def back(nums,ans,indx):
-            if indx==len(nums) :
+            if indx==len(nums):
                 if(len(ans)>2):
                     if (ans[len(ans)-1]== (ans[len(ans)-2]+ ans[len(ans)-3])):
                         return True
